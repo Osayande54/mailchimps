@@ -1,0 +1,451 @@
+* {
+  padding: 0%;
+  box-sizing: border-box;
+  margin: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+nav {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0%;
+  padding: 1vw, 8vw;
+  box-shadow: 10px, 10px, 10px rgb(27, 48, 43);
+  z-index: 1;
+  position: fixed;
+  background-color: aliceblue;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  height: 80px;
+  padding-bottom: 60px;
+  cursor: pointer;
+}
+nav div {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+}
+nav div ul {
+  display: inline-block;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 80px;
+  font-size: larger;
+  font-weight: lighter;
+  justify-content: space-between;
+}
+nav div li {
+  display: inline-block;
+  align-items: center;
+  list-style-type: none;
+  font-weight: lighter;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+.btc-img {
+  width: 150px;
+  height: 30px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.favicon {
+  width: 20px;
+  height: 20px;
+}
+.login {
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 400px;
+}
+
+.signup {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  border: 1px solid rgb(47, 0, 255);
+  color: white;
+  background-color: rgb(47, 0, 255);
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  margin-left: 30px;
+}
+.farms {
+  color: #fff;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  margin-top: -900px;
+  padding-left: -100px;
+  text-align: center;
+}
+.scent {
+  padding-top: 1000px;
+  background-color: rgb(19, 23, 23);
+}
+.favicons {
+  width: 80px;
+  height: 80px;
+  transform: translateY(10px);
+}
+.earn {
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  padding-top: 30px;
+  font-size: 22px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+}
+.launch {
+  text-align: center;
+  margin-left: 750px;
+  margin-top: 30px;
+  background-color: rgb(0, 150, 255);
+  color: #fff;
+  border: 1px solid rgb(0, 150, 255);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+:hover .launch {
+  box-shadow: 10px solid blue;
+  cursor: pointer;
+}
+.scent a {
+  text-decoration: none;
+}
+.more {
+  margin-left: 790px;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.img {
+  width: 800px;
+  height: 800px;
+
+  margin-left: 500px;
+  margin-top: 40px;
+}
+.third-section {
+  height: 1000px;
+  background-color: aliceblue;
+}
+.text {
+  font-size: 70px;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+.tools {
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 150px;
+  padding-top: 20px;
+  line-height: 40px;
+}
+.start {
+  text-decoration: none;
+  border: 1px solid blue;
+  background-color: blue;
+  color: #fff;
+  margin-left: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.homepage {
+  height: 500px;
+  width: 400px;
+  float: right;
+  transform: translateY(-400px);
+  margin-right: 300px;
+  margin-top: 65px;
+}
+.bloombrg {
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  transform: translateY(-300px);
+}
+.fourth {
+  background-color: blue;
+  width: 100%;
+  height: 200px;
+  padding-top: -100px;
+  margin-top: -100px;
+}
+.h1fr {
+  padding-top: 70px;
+  color: #fff;
+  font-size: 60px;
+  text-align: left;
+  padding-left: 200px;
+  opacity: 0.4;
+}
+.btn {
+  float: right;
+  text-align: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  margin-right: 200px;
+  font-size: 20px;
+  font-weight: 900px;
+  margin-top: -60px;
+  color: black;
+}
+.wallets {
+  opacity: 1;
+  color: #fff;
+}
+.quick {
+  padding-top: 100px;
+  font-size: 45px;
+
+  font-weight: bolder;
+  text-align: center;
+}
+.buy {
+  background-color: aliceblue;
+}
+.bank {
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 40px;
+}
+.little {
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(0, 26, 255);
+}
+.index {
+  width: 500px;
+  height: 600px;
+  padding-top: 100px;
+  margin-left: 300px;
+}
+.free {
+  margin-left: 150px;
+  font-size: 40px;
+  opacity: 0.8;
+  margin-top: 300px;
+}
+.full {
+  margin-left: 150px;
+  font-size: 21px;
+  margin-top: 30px;
+  font-weight: lighter;
+  color: black;
+}
+.dist {
+  margin-top: -40px;
+}
+.gos {
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+.goss {
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 200px;
+  padding-top: 30px;
+}
+.gose {
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 200px;
+  padding-top: 30px;
+}
+.divs2 {
+  margin-top: -50px;
+}
+.manage {
+  font-weight: lighter;
+  padding-left: 200px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 10px;
+  line-height: 30px;
+}
+.checklist {
+  width: 50px;
+  height: 50px;
+  transform: translateY(100px);
+  margin-left: 140px;
+}
+.checklists {
+  width: 50px;
+  height: 50px;
+  transform: translateY(100px);
+  margin-left: 140px;
+}
+.div3 {
+  margin-top: -50px;
+}
+.jog {
+  height: 650px;
+
+  width: 600px;
+  margin-left: 1000px;
+  transform: translateY(-530px);
+  padding-right: 80px;
+  padding-top: 30px;
+  margin-right: 30px;
+}
+
+.appstore {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-top: -600px;
+  margin-left: 150px;
+}
+.playstore {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 220px;
+  margin-top: -600px;
+}
+.starts {
+  float: left;
+  transform: translateY(-605px);
+  text-align: center;
+  margin-left: 570px;
+  text-decoration: none;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  font-size: 20px;
+  padding-bottom: 15px;
+  border: 1px solid azure;
+  color: black;
+  font-weight: bolder;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 13px;
+}
+
+.dex {
+  width: 800px;
+  height: 500px;
+  margin-left: -600px;
+  margin-top: -350px;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-left: 80px;
+}
+.verss {
+  float: right;
+  margin-top: -550px;
+  margin-right: 550px;
+  font-size: 50px;
+}
+.bits {
+  float: right;
+  margin-top: -450px;
+  margin-right: 250px;
+  font-size: 22px;
+  opacity: 0.8;
+  font-weight: lighter;
+  margin-left: 50px;
+}
+.node {
+  margin-left: 965px;
+  transform: translateY(-350px);
+  margin-right: 350px;
+  height: 500px;
+}
+.cod {
+  margin-left: 50px;
+}
+.checklist-2 {
+  width: 50px;
+  height: 50px;
+  transform: translateX(-8px);
+  transform: translateY(-40px);
+}
+.h32 {
+  margin-top: -40px;
+  margin-left: 50px;
+  opacity: 0.7;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.small {
+  height: 30px;
+  width: 30px;
+  margin-left: 05px;
+  transform: translateY(10px);
+  text-align: center;
+}
+.bss {
+  text-align: center;
+  font-size: 20px;
+  transform: translateY(20px);
+  background-color: rgb(0, 150, 255);
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: #fff;
+  border: 1px solid rgb(0, 150, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifs;
+}
+.share {
+  font-size: 20px;
+  margin-left: 50px;
+  padding-top: 30px;
+}
+.market {
+  margin-left: 120px;
+}
+.market h1 {
+}
+.market h3 {
+  padding-top: 30px;
+  line-height: 40px;
+}
+.data {
+  border: 1px solid blue;
+  text-decoration: none;
+  margin-left: 1300px;
+  transform: translateY(1000px);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
